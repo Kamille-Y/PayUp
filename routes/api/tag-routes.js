@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
 });
 
 
-router.get('/:id', (req, res) => {
+
   router.get('/:id', (req, res) => {
     Tag.findOne({
       where: {
@@ -73,7 +73,6 @@ router.delete('/:id', (req, res) => {
 
 });
 
-
+//  there is has a syntax error
 module.exports = router;
 
-})
